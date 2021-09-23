@@ -1,0 +1,284 @@
+.el-card.is-always-shadow,
+.el-card.is-hover-shadow:focus,
+.el-card.is-hover-shadow:hover {
+    -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0) !important;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0) !important;
+}
+.tabNews .el-tabs__item:focus.is-active.is-focus:not(:active) {
+    -webkit-box-shadow: none;
+     box-shadow: none;
+}
+
+/* .el-button--primary {
+    color: #FFF;
+    background-color: #04ba8f !important;
+    border-color: #04ba8f !important;
+} */
+
+.el-card__header {
+    padding: 12px 20px !important;
+    border-bottom: 1px solid #EBEEF5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus{
+    outline: 0px !important;
+}
+
+/* .el-tooltip:not(:active) {
+    box-shadow: none;
+    border: 0 !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    } */
+
+/* .el-loading-spinner .path {
+    stroke: #04ba8f !important;
+}
+
+.el-slider__bar {
+    background-color: #04ba8f !important;
+}
+
+.el-slider__button {
+    border: 2px solid #04ba8f !important;
+}
+
+.el-input.is-active .el-input__inner, .el-input__inner:focus {
+    border-color: #04ba8f !important;
+    outline: 0;
+}
+
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #04ba8f !important;
+    color: #FFF;
+} */
+
+
+/* .el-button--primary {
+    color: #FFF;
+    background-color: #409EFF;
+    border-color: #409EFF;
+} */
+
+
+/* 渠道页面 */
+
+.mar_r45 {
+    margin-right: 45px;
+}
+
+.dis_i {
+    display: inline-block;
+}
+
+.serviceList .serviceItem:last-child {
+    margin-right: 0;
+}
+
+.serviceItem {
+    width: 300px;
+    height: 500px;
+    -webkit-box-shadow: 0 2px 6px hsla(0, 0%, 54.9%, .5);
+    box-shadow: 0 2px 6px hsla(0, 0%, 54.9%, .5);
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.bor_rad5 {
+    border-radius: 5px;
+}
+
+.bor_dd {
+    border: 1px solid #dddfe2;
+}
+
+.mar_r20 {
+    margin-right: 20px;
+}
+
+.overhide {
+    overflow: hidden;
+}
+
+.state {
+    width: 100px;
+    height: 90px;
+    line-height: 55px;
+    top: 0;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.pad_r_10 {
+    padding-right: 10px;
+}
+
+.t_r {
+    text-align: right;
+}
+
+.dis_bk {
+    display: block;
+}
+
+.serviceItem .tit {
+    padding: 35px 0 15px;
+}
+
+.bor_b_dd {
+    border-bottom: 1px solid #dddfe2;
+}
+
+.mar_lr20 {
+    margin: 0 20px;
+}
+
+.t_c {
+    text-align: center;
+}
+
+.color_3 {
+    color: #333;
+}
+
+.fon_20 {
+    font-size: 20px;
+}
+
+.serviceItem .icon {
+    margin: 15px auto;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f0f2f4;
+}
+
+.bor_rad50 {
+    border-radius: 50%;
+}
+
+.xiaoicon {
+    color: #677de0;
+    font-size: 38px !important;
+}
+
+.serviceItem .alipay_ico {
+    color: #00a2ea !important;
+    font-size: 38px !important;
+}
+
+.serviceItem .baidu_ico {
+    color: #0061FF !important;
+    font-size: 38px !important;
+}
+
+.serviceItem .zijie_ico {
+    color: #56D7FF !important;
+    font-size: 38px !important;
+}
+
+.color_6 {
+    color: #666;
+}
+
+.serviceItem .lists {
+    width: 220px;
+    height: 250px;
+}
+
+.pad_tb_15 {
+    padding: 15px 0;
+}
+
+.margin0 {
+    margin: 0 auto;
+}
+
+.mar_r10 {
+    margin-right: 10px;
+}
+
+.serviceItem .lists li {
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+}
+
+.serviceItem .tool {
+    bottom: 20px;
+    width: 75%;
+    left: 50%;
+    margin-left: -37.5%;
+}
+
+.serviceItem .tool .wxxcx,
+.wechat .tool .el-button:focus,
+.wechat .tool .el-button:hover {
+    background-color: #677de0;
+    border-color: #677de0;
+}
+.wxxcx i {
+    padding-top: 5px;
+}
+
+.serviceItem .tool .zfbxcx,
+.wechat .tool .el-button:focus,
+.wechat .tool .el-button:hover {
+    background-color: #00a2ea;
+    border-color: #00a2ea;
+}
+.zfbxcx i {
+    padding-top: 5px;
+}
+.serviceItem .tool .bdxcx,
+.wechat .tool .el-button:focus,
+.wechat .tool .el-button:hover {
+    background-color: #0061FF;
+    border-color: #0061FF;
+}
+.bdxcx i {
+    padding-top: 5px;
+}
+.serviceItem .tool .zjxcx,
+.wechat .tool .el-button:focus,
+.wechat .tool .el-button:hover {
+    background-color: #56D7FF;
+    border-color: #56D7FF;
+}
+.zjxcx i {
+    padding-top: 5px;
+}
+
+/* .el-button,
+.el-button.is-round {
+    height: 36px !important;
+    line-height: 36px !important;
+    padding: 0 20px !important;
+} */
+
+.bor_rad20 {
+    border-radius: 20px !important;
+}
+
+.color_f {
+    color: #fff !important;
+}
+
+.t_idex30 {
+    text-indent: 30px;
+}
+
+.wid {
+    width: 100%;
+}
+
+.serviceItem .tool i {
+    position: absolute;
+    left: 17px;
+    font-size: 25px;
+    top: 0;
+}
